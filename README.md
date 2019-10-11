@@ -1,10 +1,10 @@
-# Combining different API's together
+# Creating an alarm for your morning commute
 
-Here we will look at how we can combine the data from different API's together to make useful functionalities for a product. 
+We are gonna be creating an Arduino that will tell you when you need to leave in time to catch your train. We are going to be using the [NS API](https://www.ns.nl/en/travel-information/ns-api) to tell the arduino when our train is leaving and we're going to be using  [Zapier Account](https://zapier.com/) to connect our Google Calendar to the device.
 
-## Our example
+### How will this work
 
-Our example will be an Arduino Device which can tell us when we need to leave the house to catch our train for work or school that day. We are going to be working with the NodeMCU with ESP-8266 and make a LED shine when we need to leave.
+With [Zapier](https://zapier.com/) we'll make sure that our Arduino gets a notification when you have an appointment set in your calendar. 
 
 ### What do we need for this to work?
 
@@ -15,5 +15,5 @@ Our example will be an Arduino Device which can tell us when we need to leave th
 - [NS API](https://www.ns.nl/en/travel-information/ns-api)
 - [Zapier Account](https://zapier.com/)
 
-## Let's Begin!
-### Step 1
+## Step 1
+
